@@ -1,0 +1,63 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	background: #fafbfc;
+}
+
+a {
+	color: #5ac3a5;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+.m-r {
+	margin-right: 10px;
+}
+
+.text-muted {
+	color: #bbb;
+}
+
+.card {
+	width: 100%;
+	height: 88px;
+	padding: 40px 100px;
+	background: #5ac3a5;
+}
+
+.card .avatar {
+	width: 80px;
+	height: 80px;
+	border: 4px solid #FFFFFF;
+	margin-right: 20px;
+	float: left;
+}
+
+.info {
+	float: left;
+	color: #FFFFFF;
+	padding-top: 25px;
+}
+
+.slogan {
+	font-size: 14px;
+}
+
+.main {
+	padding: 60px 100px;
+}
+
+.box .box-header{
+	margin-bottom: 20px;
+}
+
+.box .item {
+	display: block;
+	margin-bottom: 10px;
+}
