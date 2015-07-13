@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>web photo 处理</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="top-header">
+    <h3 class="logo-text">Photo It</h3>
+    <span id="choose-photo-btn" class="top-nav">
+        <input type="file" accept="image/*" id="input-file">
+        <span class="cloth">打开</span>
+    </span>
+    <a id="save-photo-btn" class="top-nav" download="photo.png">
+        <span class="cloth">保存本地</span>
+    </a>
+    <span id="save-server-btn" class="top-nav">
+        <span class="cloth">云端地址</span>
+    </span>
+</div>
+<div class="side-toolbar">
+    <h3 class="bar-title">工具栏</h3>
+    <div class="tool-box" id="toolbar">
+        <img src="img/crop.png" id="tool-crop" class="btn" alt="剪裁" title="剪裁"/>
+        <img src="img/rotate.png" id="tool-rotate" class="btn" alt="旋转" title="旋转"/>
+        <img src="img/zoom.png" id="tool-zoom" class="btn" alt="缩放" title="缩放"/>
+    </div>
+</div>
+
+<div id="worktable">
+    <canvas id="work-canvas" width="800" height="400" ></canvas>
+    <!--zoom-->
+    <span id="zoom-tip" class="hide"></span>
+    <div id="zoom-point" class="hide"></div>
+    <!--crop-->
+    <div id="crop-box"></div>
+</div>
+
+<div id="right-box">
+    <h3 class="box-title">剪裁形状</h3>
+    <div class="box-content">
+        <img src="img/square.png" alt="square" title="正方形" id="crop-square" class="btn btn-active"/>
+        <img src="img/crop-any.png" alt="any" title="长方形" id="crop-any" class="btn"/>
+    </div>
+    <h3 class="box-title" style="border-top: 1px solid #ddd;">图像/剪裁区域大小</h3>
+    <div class="box-content" style="text-align: center">
+        <span id="sizeX">0</span> x <span id="sizeY">0</span>
+    </div>
+    <h3 class="box-title" style="border-top: 1px solid #ddd;">旋转图像</h3>
+    <div class="box-content" style="text-align: center">
+        <span  id="r-90" class="r-btn">90</span>
+<!--        <span  id="r-180" class="r-btn">180</span>
+        <span  id="r-270" class="r-btn">270</span>
+        <span  id="r-360" class="r-btn">复原</span>-->
+        <p id="rotate-tip" class="hide">目前仅正方形支持旋转%>_<%</p>
+    </div>
+</div>
+
+<div id="result-box" class="hide"><span id="r-text"></span><span id="close-result">X</span></div>
+</body>
+<script src="http://libs.baidu.com/jquery/1.8.2/jquery.min.js"></script>
+<script src="app.js"></script>
+</html>
