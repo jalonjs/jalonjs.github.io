@@ -1,63 +1,48 @@
 * {
 	padding:0;
 	margin:0;
+	list-style-type: none;
+	text-decoration: none;
 }
 
 body {
+	background-image: url(image/bg1.jpeg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-	background: #fafbfc;
 }
-
-a {
-	color: #5ac3a5;
-	text-decoration: none;
+.myName {
+	font-size: 80px;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 160px;
+	font-family: cursive;
 }
-li {
-	list-style: none;
-}
-
-.m-r {
-	margin-right: 10px;
-}
-
-.text-muted {
-	color: #bbb;
-}
-
-.card {
-	/*width: 100%;*/
-	height: 88px;
-	padding: 40px 100px;
-	background: #5ac3a5;
-}
-
-.card .avatar {
-	width: 80px;
-	height: 80px;
-	border: 4px solid #FFFFFF;
-	margin-right: 20px;
-	float: left;
-}
-
-.info {
-	float: left;
-	color: #FFFFFF;
-	padding-top: 25px;
-}
-
 .slogan {
-	font-size: 14px;
+	color: #c1c1c1;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 24px;
 }
 
-.main {
-	padding: 60px 100px;
+.nav {
+	color: #ffffff;
+	position: relative;
+	margin: 50px auto;
+	width: 320px;
 }
-
-.box .box-header{
-	margin-bottom: 20px;
-}
-
-.box .item {
+.nav a {
+	margin: 20px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
 	display: block;
-	margin-bottom: 10px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	background: #ffffff;
+	color: #666;
 }

@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-angular-seed' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'generator-angular-seed', null ]
+7 verbose cache add spec generator-angular-seed
+8 silly cache add parsed spec { raw: 'generator-angular-seed',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'generator-angular-seed',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed generator-angular-seed@*
+10 verbose addNamed "*" is a valid semver range for generator-angular-seed
+11 silly addNameRange { name: 'generator-angular-seed', range: '*', hasData: false }
+12 silly mapToRegistry name generator-angular-seed
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/generator-angular-seed
+16 verbose addNameRange registry:https://registry.npmjs.org/generator-angular-seed not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/generator-angular-seed
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 16:25:08
+20 verbose request id 1b8ab59b7a966a5f
+21 verbose etag "AZEUFYEJL6CF1RQRL1UW2V1MI"
+22 http request GET https://registry.npmjs.org/generator-angular-seed
+23 http 304 https://registry.npmjs.org/generator-angular-seed
+24 silly get cb [ 304,
+24 silly get   { date: 'Fri, 31 Jul 2015 08:25:03 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"AZEUFYEJL6CF1RQRL1UW2V1MI"',
+24 silly get     age: '28',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-itm7426-ITM',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1438331103.907211,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/generator-angular-seed from cache
+26 verbose get saving generator-angular-seed to /Users/jalon/.npm/registry.npmjs.org/generator-angular-seed/.cache.json
+27 silly addNameRange number 2 { name: 'generator-angular-seed', range: '*', hasData: true }
+28 silly addNameRange versions [ 'generator-angular-seed',
+28 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.0', '0.3.1', '0.3.2', '0.3.4' ] ]
+29 silly addNamed generator-angular-seed@0.3.4
+30 verbose addNamed "0.3.4" is a plain semver version for generator-angular-seed
+31 silly cache afterAdd generator-angular-seed@0.3.4
+32 verbose afterAdd /Users/jalon/.npm/generator-angular-seed/0.3.4/package/package.json not in flight; writing
+33 verbose afterAdd /Users/jalon/.npm/generator-angular-seed/0.3.4/package/package.json written
+34 silly install resolved [ { name: 'generator-angular-seed',
+34 silly install resolved     version: '0.3.4',
+34 silly install resolved     description: 'A Yeoman generator to get your Angular.js project started on the right track.',
+34 silly install resolved     keywords: [ 'yeoman-generator' ],
+34 silly install resolved     dependencies: { 'yeoman-generator': '^0.16.0' },
+34 silly install resolved     gitHead: 'b1a1046f540fd73cdd9f52e4161a1924d4f55b8c',
+34 silly install resolved     _id: 'generator-angular-seed@0.3.4',
+34 silly install resolved     scripts: {},
+34 silly install resolved     _shasum: '2259fc007129a4a5a0806c7a3bc2621181ed78c7',
+34 silly install resolved     _from: 'generator-angular-seed@*',
+34 silly install resolved     _npmVersion: '1.4.13',
+34 silly install resolved     _npmUser: { name: 'guidoprincess', email: 'guidoprincess@gmail.com' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '2259fc007129a4a5a0806c7a3bc2621181ed78c7',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/generator-angular-seed/-/generator-angular-seed-0.3.4.tgz' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-angular-seed/-/generator-angular-seed-0.3.4.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install generator-angular-seed@0.3.4 into /usr/local/lib
+36 info installOne generator-angular-seed@0.3.4
+37 verbose installOne of generator-angular-seed to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/jalon/.npm/_locks/generator-angular-seed-f2a090b447508e77.lock for /usr/local/lib/node_modules/generator-angular-seed
+39 silly install write writing generator-angular-seed 0.3.4 to /usr/local/lib/node_modules/generator-angular-seed
+40 verbose unbuild lib/node_modules/generator-angular-seed
+41 silly gentlyRm /usr/local/lib/node_modules/generator-angular-seed is being purged from base /usr/local
+42 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-angular-seed
+43 verbose tar unpack /Users/jalon/.npm/generator-angular-seed/0.3.4/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/generator-angular-seed
+45 silly gentlyRm /usr/local/lib/node_modules/generator-angular-seed is being purged
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-angular-seed
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 error tar.unpack untar error /Users/jalon/.npm/generator-angular-seed/0.3.4/package.tgz
+49 verbose unlock done using /Users/jalon/.npm/_locks/generator-angular-seed-f2a090b447508e77.lock for /usr/local/lib/node_modules/generator-angular-seed
+50 verbose fstream_path /usr/local/lib/node_modules/generator-angular-seed
+51 verbose fstream_type Directory
+52 verbose fstream_class DirWriter
+53 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular-seed'
+53 verbose stack     at Error (native)
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+54 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+55 verbose cwd /Users/jalon/jalonjs.github.io
+56 error Darwin 14.4.0
+57 error argv "node" "/usr/local/bin/npm" "install" "-g" "generator-angular-seed"
+58 error node v0.12.7
+59 error npm  v2.11.3
+60 error path /usr/local/lib/node_modules/generator-angular-seed
+61 error code EACCES
+62 error errno -13
+63 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular-seed'
+63 error     at Error (native)
+63 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular-seed']
+63 error   errno: -13,
+63 error   code: 'EACCES',
+63 error   path: '/usr/local/lib/node_modules/generator-angular-seed',
+63 error   fstream_type: 'Directory',
+63 error   fstream_path: '/usr/local/lib/node_modules/generator-angular-seed',
+63 error   fstream_class: 'DirWriter',
+63 error   fstream_stack:
+63 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+63 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+63 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+64 error Please try running this command again as root/Administrator.
+65 verbose exit [ -13, true ]
+66 verbose unbuild lib/node_modules/generator-angular-seed
+67 silly gentlyRm /usr/local/lib/node_modules/generator-angular-seed is being purged from base /usr/local
+68 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-angular-seed
