@@ -1,0 +1,17 @@
+[
+    {
+        "wx": {
+            "appId": "123456",
+            "path": "/pages/index/index"
+        },
+        "web": {
+            "url": "https://cmljs.org/cml/h5/index"
+        },
+        "weex": {
+            "url": "//jalon.wang/cml-demo-say/dist/weex/cml-demo-say_ea88e5a3fa502f21404e.js",
+            "query": {
+                "path": "/pages/index/index"
+            }
+        }
+    }
+]
