@@ -1,0 +1,15 @@
+<cml-buildin-page title="chameleon" class=" cml-base cml-page">
+  <cml-buildin-scroller height="{{winHeight}}" class=" cml-base cml-scroller">
+    <view class="scroller-wrap  cml-base cml-view">
+      <view style="padding:20rpx" class=" cml-base cml-view">
+        <text class=" cml-base cml-text">1，JS调用Native</text>
+        <text class=" cml-base cml-text">callback返回内容: {{callbackRes}}</text>
+        <cml-buildin-button bindonclick="_cmlEventProxy" data-eventonclick="sayHello" text="JS调用Native sayHello方法" style="margin-top:20rpx" class=" cml-base cml-button"></cml-buildin-button>
+      </view>
+      <view style="padding:20rpx" class=" cml-base cml-view">
+        <text class=" cml-base cml-text">2，Native调用JS 的NaTellJS方法已经注册监听，点击Native的改变文字按钮,下发状态文字将改变</text>
+        <text class=" cml-base cml-text">状态：{{status}}</text>
+      </view>
+    </view>
+  </cml-buildin-scroller>
+</cml-buildin-page>
