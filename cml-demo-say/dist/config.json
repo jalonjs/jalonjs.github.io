@@ -8,7 +8,7 @@
             "url": "https://www.chameleon.com/cml/h5/index"
         },
         "weex": {
-            "url": "//www.static.chameleon.com/cml/weex/cml-demo-say_59bb141888de57dff15e.js",
+            "url": "//jalon.wang/cml-demo-say/dist/weex/cml-demo-say_59bb141888de57dff15e.js",
             "query": {
                 "path": "/pages/index/index"
             }
