@@ -5,10 +5,10 @@
             "path": "/pages/index/index"
         },
         "web": {
-            "url": "https://cmljs.org#/cml/h5/index"
+            "url": "https://cmljs.org#/"
         },
         "weex": {
-            "url": "//jalon.wang/cml-demo-say/dist/weex/cml-demo-say_da06f636de7ff7d21d2a.js",
+            "url": "//jalon.wang/cml-demo-say/dist/weex/cml-demo-say_0c731e1c5e428213d27a.js",
             "query": {
                 "path": "/pages/index/index"
             }
